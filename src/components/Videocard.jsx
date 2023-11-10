@@ -32,7 +32,7 @@ function Videocard({view,setDeleteVideoStatus}) {
   const cardDrag =async(e,id)=>{
     console.log(`the id of the videoCARD dragged is ${id}`);
     e.dataTransfer.setData("videoID",id)
-   }
+}
  
   return (
     

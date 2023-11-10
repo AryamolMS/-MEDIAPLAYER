@@ -38,8 +38,8 @@ return await commonAPI('DELETE',`${serverURL}/history/${id}`,{})
 
 //api to add category to json server
 export const addAllCategory=async(body)=>{
-return await commonAPI('POST',`${serverURL}/category`,body)
-   }
+   return await commonAPI('POST',`${serverURL}/category`,body)
+}
 
 //api to get all categories from json server
 
